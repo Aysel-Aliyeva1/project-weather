@@ -1,4 +1,12 @@
 function getWeather() {
+
+  let val = document.getElementById("city").value
+
+  if (val == "") {
+    alert("You must enter a city")
+    return
+  }
+ 
   let city = document.getElementById("city").value;
 
   let dynamicUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=cad7ec124945dcfff04e457e76760d90`;
