@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(86, 196, 244);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main2 {
+  width: 70%;
+  height: 500px;
+  background-color: rgb(90, 90, 116);
+  margin-top: 100px;
+  border-radius: 25px;
+  opacity: 0.95;
+}
+
+.cityselector {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.city {
+  width: 160px;
+  height: 40px;
+  margin-right: 2px;
+}
+
+.citybtn {
+  height: 46px;
+  margin-left: 2px;
+}
+
+.hrtag1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+}
+
+.main3 {
+  display: flex;
+  visibility: hidden;
+}
+
+.weathericon {
+  flex: 50%;
+  height: 350px;
+  color: white;
+  text-align: center;
+}
+
+.numbspart {
+  flex: 50%;
+  height: 350px;
+  color: white;
+}
+
+.wimg {
+  width: 50%;
+  height: 230px;
+}
+
+#wcondition {
+  width: 30%px;
+  height: 35px;
+  font-size: 30px;
+}
+
+.citynamediv {
+    width: 90%;
+    height: 80px;
+}
+
+#cityname {
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.hrtag2 {
+  margin-right: 5px;
+  border: 1px solid black;
+}
+
+.numbspart2 {
+    height: 200px;
+    display: flex;
+}
+
+.leftpart {
+    height: 200px;
+    flex: 50%;
+    margin-left: 20px;
+}
+
+.rightpart {
+    height: 200px;
+    flex: 50%
+}
+
+.cdegreebig {
+    font-size: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#error-message {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
