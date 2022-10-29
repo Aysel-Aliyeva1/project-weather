@@ -89,9 +89,7 @@ body {
   height: 35px;
   font-size: 30px;
   margin-top: 25px;
-  /* position: absolute; */
-  /* right: 5px; */
-  /* vertical-align:middle; */
+  text-transform: capitalize;
 }
 
 .citynamediv {
