@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="main">
-      <div class="main2">
+      <div class="main2" id="main2">
         <div class="cityselector">
           <input id="city" class="city" type="text" />
           <button onclick="getWeather()" class="citybtn" type="button">
@@ -19,12 +19,12 @@
         <hr class="hrtag1" />
         <div id="error-message"></div>
         <div id="main3" class="main3">
-          <div class="weathericon">
+          <!-- <div class="weathericon">
             <img id="wimg" class="wimg" src="" alt="img" />
             <p id="wcondition" class="wcondition"></p>
-          </div>
+          </div> -->
           <div class="numbspart">
-            <div class="citynamediv"><p id="cityname"></p></div>
+            <div class="citynamediv"><p id="cityname"></p> <p id="wcondition" class="wcondition"></p></div>
             <hr class="hrtag2" />
             <div class="numbspart2">
               <div class="leftpart">
@@ -35,7 +35,10 @@
               <div class="rightpart">
                 <p>Feels like: <span id="feelslike"></span>°</p>
                 <p>Humidiy: <span id="humidity"></span>%</p>
-                <p>Wind: <span id="wind"></span> km/h</p>
+                <p>Wind speed: <span id="winds"></span> km/h</p>
+                <p>Wind degree: <span id="winddeg"></span>°</p>
+                <p>Clouds: <span id="clouds"></span>%</p>
+                <p>Country: <span id="country"></span></p>
               </div>
             </div>
           </div>
