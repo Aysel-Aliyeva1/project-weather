@@ -1,3 +1,11 @@
+let input = document.getElementById("city");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("citybtn").click();
+  }
+});
+
 function getWeather() {
   let val = document.getElementById("city").value;
 
